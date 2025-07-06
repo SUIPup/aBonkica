@@ -33,3 +33,22 @@ body {
 .buy-btn img:hover {
   transform: scale(1.05);
 }
+.x-btn {
+  position: fixed;
+  bottom: 100px;
+  right: 20px;
+  z-index: 999;
+}
+
+.x-btn img {
+  width: 40px;
+  height: auto;
+  opacity: 0.85;
+  transition: transform 0.2s ease-in-out;
+}
+
+.x-btn img:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
